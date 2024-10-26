@@ -1,0 +1,19 @@
+{
+  "name": "fylo-dark-theme-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "t": "vite --host",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+  }
+}
