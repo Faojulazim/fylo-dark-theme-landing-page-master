@@ -12,12 +12,7 @@ emailField.addEventListener("input", (e) => {
     error.textContent = "Please enter a valid email address";
   } else {
     error.classList.add("hidden");
-    // error.textContent = "Submitted!";
-    // error.classList.add("text-lime-400");
-    // emailField.value = "";
   }
-  error.classList.add("text-[hsl(0_100%_63%)]");
-  error.textContent = "Please enter a valid email address";
 });
 submitBtn.addEventListener("click", (e) => {
   e.preventDefault();
